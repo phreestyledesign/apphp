@@ -7,7 +7,7 @@
 	<meta name="description" content="<?php echo Application::Get("tag_description"); ?>" />
 	
     <base href="<?php echo APPHP_BASE; ?>"> 
-	<link rel="SHORTCUT ICON" href="<?php echo APPHP_BASE; ?>images/icons/apphp.ico" />
+	<link rel="SHORTCUT ICON" href="<?php echo APPHP_BASE; ?>images/icons/favicon.ico" />
 	
 	<link href="<?php echo APPHP_BASE; ?>templates/<?php echo Application::Get("template");?>/css/style.css" type="text/css" rel="stylesheet" />
 	<link href="<?php echo APPHP_BASE; ?>templates/<?php echo Application::Get("template");?>/css/menu.css" type="text/css" rel="stylesheet" />
@@ -84,15 +84,14 @@
 		
 
 	</main><!-- END OF MAIN CONTENT -->
-	<div class="clear"></div>
-	
+	<div class="clear push"></div>
+	</div><!-- END OF wrapper -->
 	
 	<!-- FOOTER -->
 	<footer>
 	<?php include_once "templates/".Application::Get("template")."/footer.php"; ?>
 	</footer><!-- end footer -->
 	
-</div><!-- END OF wrapper -->	
 
 </body>
 </html>

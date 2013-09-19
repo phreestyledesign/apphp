@@ -1,7 +1,8 @@
 /**RESET**/
-html			{margin:0;padding:0; font-family: verdana, sans-serif; font-size: 100.1%;}
+html, body 		{height: 100%;margin:0;padding:0;}
+html			{font-family: verdana, sans-serif; font-size: 100.1%;}
 body            {background: #C3C10E url(../images/bg.png);}
-body,td,th      {}
+
 
 /** LINKS **/
 a:link          { text-decoration: underline; color: #336699; }
@@ -15,30 +16,33 @@ a:active        { text-decoration: underline; color: #336699; }
 .clear          { clear:both;  }
 
 /**WRAPPER**/
-div#wrapper        { width:1280px; margin:0 auto; padding:0px;}
+div#wrapper        { width:1280px; min-height: 100%;height: auto !important;height:100%;margin: 0 auto -70px;background: #fff;}
 
 /** HEADER **/
-header {height: 165px;background: #fff url(../images/header_bg.png) right no-repeat;}
-header h1 a {background: url(../images/logo.png) no-repeat; display: block;height: 140px;width:410px;text-indent: -999em;text-decoration:none;margin:0;}
+header {height:165px;background: #fff url(../images/header_bg.png) right no-repeat;}
+header h1 {margin:0;padding:0}
+header h1 a {background: url(../images/logo.png) no-repeat; display: block;height: 165px;width:410px;text-indent: -999em;text-decoration:none;}
 
 /* --- SEARCH ---------------------- */
 #navcontainer .header_search { margin:1px 12px 0px 12px; float:right; }
 #navcontainer .header_search input{ border:0px; background:none transparent scroll repeat 0% 0%; margin:0px; color:#696969;}
 #navcontainer .header_search input:focus { background:none transparent scroll repeat 0% 0%; }
-.search_input { border:1px dotted #cccccc; padding-right:3px; padding-left:3px; background-color:#f1f2f3; float:left; padding-bottom:0px; margin-right:2px; padding-top:0px; height:20px;}
+.search_input { border:1px inset #cccccc; padding:0 3px; background-color:#f7f2ea; float:left; margin:-3px 2px 0 0; height:35px;}
+.search_field{height:35px;font-size: 100.1%;}
 .search_button{ border:0px; cursor:pointer;}
 
 /** COLUMNS **/
 
 
 main        { background: #fff;}
-article  { width:74%; padding:10px 5px; margin-left:0px;}
+article  	{ width:74%; padding:10px 5px;}
 #sidebar    { float:right; width:25%; padding:10px 5px 10px 0;}
-#sidebar h3 { background:#cccccc; margin-bottom:10px; padding:6px 0px; font-weight:bold; font-size:120%;text-align:center; border:1px solid #aaaaaa; }
+#sidebar h3 { background:#f7f2ea; margin-bottom:10px; padding:6px 0px; font-weight:bold; text-align:center; border:1px solid #aaaaaa; }
 #sidebar ul { margin-left:0px;list-style-type:none; }
 
 /** FOOTER **/
-footer         {width:100%;margin-top: 10px;padding-top:15px;padding-bottom:15px;color:#444444;text-align:center;background:#fff; border:1px solid #cccccc;}
+footer, .push {height: 70px;}
+footer         {width:1280px;margin:0 auto; color:#444444;text-align:center;background:#fff;}
 
 
 /** MESSAGE BOXES  **/
