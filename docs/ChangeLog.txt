@@ -1,0 +1,317 @@
+======================================================================================
+- Version 3.9.4 [29.07.2013]
+======================================================================================
+ 1. Feature: [added] possibility to use WYSIWYG editor for email templates: General -> Site Settings -> Email Settings
+ 2. Feature: [added] possibility to generate username and password for nerw admins and users
+ 3. Feature: [added] new "imageupload" plugin for TinyMCE editor
+ 4. Feature: [added] possibility to enter HTML tags in banners text
+ 5. Feature: [added] possibility to define items numeration in albums
+ 6. Feature: [added] new module Testimonials
+ 7. Feature: [added] new module FeaturedContent
+ 8. Feature: [added] highlighting for search word in result text
+ 9. Feature: [added] week start day to DateTime settigns
+10. Feature: [added] possibility to force SSL connection
+
+ 1. Feature: [improved] minor changes in homepage alerts texts
+ 2. Feature: [improved] minor changes in printing admin panel pages
+ 3. Feature: [improved] minor changes in functions.html.inc.php file
+ 4. Feature: [improved] minor changes in General -> Site Settings -> Visual Settings
+ 5. Feature: [improved] minor changes on User Control Panel
+ 6. Feature: [improved] minor changes on email templates
+ 7. Feature: [improved] pagination feature for large amount of records in MicroGrid component
+ 8. Feature: [improved] openWYSIWYG removed from the script
+ 9. Feature: [improved] procedure of drawing menus 
+
+ 1. Bug: [fixed] in drawing Terms & Conditions page when it was unpublished
+ 2. Bug: [fixed] in showing user password, when "Admin Changes User Password" option is turned on
+ 3. Bug: [fixed] in remember me feature
+ 4. Bug: [fixed] uploading non-image files for image fields
+
+
+======================================================================================
+- Version 3.8.1 [12.01.2012]
+======================================================================================
+ 1. Feature: [added] email sends to user if user's password was changed by admin
+ 2. Feature: [added] new module FAQ: {modules:faq}
+ 3. Feature: [added] possibility to send emails using SMTP mailer
+ 4. Feature: [added] possibility for admin to allow/block user login/registration/restore passwords
+ 5. Feature: [added] possibility to subscribe visitors to newsletter and send mass mail for them
+ 6. Feature: [added] possibility to manage roles and privileges for admins
+ 
+ 1. Feature: [improved] vocabulary's possibility to rewrite all languages
+ 2. Feature: [improved] drawing of permanent links with/without SEO
+ 3. Feature: [improved] procedure of automatically posting news in RSS
+ 4. Feature: [improved] sending email to users and admin in their preferred language
+ 5. Feature: [improved] minor changes in search languages module
+ 
+ 1. Bug: [fixed] wrong processing of text with apostrophes while uploading vocabulary file
+ 
+
+======================================================================================
+- Version 3.7.3 [13.12.2011]
+======================================================================================
+ 1. Feature: [added] ability to show items count in album for Gallery Module
+ 2. Feature: [added] new icon for openWYSIWYG - Insert DateTime
+ 3. Feature: [added] ability for admin to change parameter link for system pages
+ 4. Feature: [added] ability for admin to change New block placement via Modules -> News -> News Settings
+ 5. Feature: [added] email sends to admin/user when admin approval required
+ 6. Feature: [added] dynamically created META tags for news pages
+ 7. Feature: [added] ability for user to resend activation email on login page
+ 8. Feature: [added] new email template and sending email on admin approval of new registration
+ 9. Feature: [added] possibility to define Time zone via General -> Settings -> Date & Time Settings
+
+ 1. Feature: [improved] Gallery Module - added ability to draw separate album in open/closed state
+ 2. Feature: [improved] minor changes in Administrator Panel style and functionality
+ 3. Feature: [improved] functionality of Countries class
+ 4. Feature: [improved] Users class - added new field FAX number
+ 5. Feature: [improved] minor changes in search functions
+ 6. Feature: [improved] protection against CSRF Attacks
+	
+ 1. Bug: [fixed] with running Videobox Gallery in IE
+ 2. Bug: [fixed] on deleting events registered users were not deleted
+ 3. Bug: [fixed] in creating SEO links
+
+
+======================================================================================
+- Version 3.6.5 [28.03.2011]
+======================================================================================
+ 1. Feature: [added] possibility for admin to insert directly to page album images: {module:album=code}
+ 2. Feature: [added] possibility for admin to send mass mail to user groups or all together
+ 3. Feature: [added] possibility for admin to define Date Format: General -> Settings -> General Settings
+ 4. Feature: [added] possibility for admin to define using of language on: global scope, front-end or back-end
+ 5. Feature: [added] possibility for admin to re-send Activation Email for users via Admin Panel.
+ 6. Feature: [added] new component - JsCalendar v1.0 (DHTML/JavaScript Calendar)
+ 7. Feature: [added] possibility to define "Finish Publishing" field for pages
+ 8. Feature: [added] possibility to define Cron Jobs
+ 9. Feature: [added] possibility to disable captcha on registration and comments via modules settings
+10. Feature: [added] possibility to define WYSIWYG Editor type via Admin Panel: None/openWYSIWYG/TinyMCE
+
+ 1. Feature: [improved] XHTML validation
+ 2. Feature: [improved] possibility to define URL for click on banner's slideshow
+ 3. Feature: [improved] Gallery Module - added possibility to define wrapper type: table or div
+ 4. Feature: [improved] Confirm Registration page, added possibility to enter code directly on page
+ 5. Feature: [improved] minor improvements in Modules Settings
+ 6. Feature: [improved] procedure of creating RSS files
+ 7. Feature: [improved] Gallery Modules - added possibility to specify type of Video Gallery - RockBox or VideoBox 
+ 
+ 1. Bug: [fixed] javascript error on changing content type from article -> link
+ 2. Bug: [fixed] javascript error on slideshow with empty set ore only one item in set
+ 3. Bug: [fixed] wrong META tags for Home Page in different languages
+ 4. Bug: [fixed] showed wrong page after change of language
+ 5. Bug: [fixed] dtawing META tags for Home page in different languages
+
+
+======================================================================================
+- Version 3.5.4 [08.03.2011]
+======================================================================================
+ 1. Feature: [added] possibility for admin to define mailer function via General -> Settings -> General Settings
+ 2. Feature: [added] possibility for admin to create and manage user groups
+ 3. Feature: [added] automatic auto selection "active" menu link with CSS
+ 4. Feature: [added] "birth date" field fo user's profile
+ 5. Feature: [added] possibility to apply META Tags changes for all pages: Settings -> Visual Settings
+ 6. Feature: [added] template example for developers: templates/template_sample.zip
+ 7. Feature: [added] possibility to update vocabulary with uploaded file
+ 8. Feature: [added] possibility to define 2 types of user registration confirmation: email or admin approval
+ 9. Feature: [added] Opacity module: currently used for language icons
+10. Feature: [added] "Show in Search" settings for pages 
+
+ 1. Feature: [improved] Securimage module updated to v.2.0 BETA 
+ 2. Feature: [improved] work with Email Templates
+ 3. Feature: [improved] Module Comments - added possibility for user to delete his own comments
+ 4. Feature: [improved] text alignment in Admin Panel for right-to-left languages
+ 5. Feature: [improved] working with modules in Admin Panel - displaying and access
+ 6. Feature: [improved] working with templates - loading menus from XML description file
+ 7. Feature: [improved] working with access level for menus and pages
+ 8. Feature: [improved] block by Ip/Email was implemented to comments and user registration 
+ 9. Feature: [improved] Banners Module - added possibility to enter text for all images in Edit Mode on one page
+
+ 1. Bug: [fixed] in creating new language and copying data for site settings table
+ 2. Bug: [fixed] with illegal mix of collations in Gallery Module
+ 3. Bud: [fixed] on installation with magic_quotes_gpc turned 'On'
+ 4. Bud: [fixed] on checking existing account for users
+
+
+======================================================================================
+- Version 3.4.2 [28.10.2010]
+======================================================================================
+ 1. Feature: [added] possibility for user to see/perform new search with popular search keywords
+ 2. Feature: [added] statistics module in Admin Panel
+ 3. Feature: [added] SEO links for news (defined in Admin Panel -> General -> Settings -> General Settings [SEO URLs])
+ 4. Feature: [added] possibility to send mass mail via Admin Panel -> Mass Mail & Templates -> Mass Mail
+ 5. Feature: [added] added German translation for site
+
+ 1. Feature: [improved] possibility to translate header, footer, sloagan etc. into other languages
+ 2. Feature: [improved] style issues with 3rd column for default css template
+ 3. Feature: [improved] "themes" modules were renamed into "templates"
+
+ 1. Bug: [fixed] in creating new albums and copying into other languages
+ 2. Bug: [fixed] in creating link/page for menu 
+
+
+======================================================================================
+- Version 3.3.1 [13.10.2010]
+======================================================================================
+ 1. Feature: [added] possibility for admin to decide whether to allow or not image verification on Contact Us form
+ 2. Feature: [added] possibility for admin to manage countries 
+ 3. Feature: [added] possibility for admin to define access rights to menu
+ 4. Feature: [added] automatical creating and using thumbnail images for Gallery module
+ 5. Feature: [added] possibility for admin to define whether to show My Account link or not
+ 6. Feature: [added] possibility for admin to translate new language, using Google Translation
+                     Languages Settings -> Vocabulary -> [Edit] -> Translate via Google
+ 7. Feature: [added] possibility for admin to define whether to show User Login block or not
+ 8. Feature: [added] new module Banners, that allows to show banners on home page
+ 9. Feature: [added] possibility for admin to allow comments pre-moderation via Modules -> Comments Settings
+10. Feature: [added] possibility for admin to create events and for user to register for events via submission form
+
+ 1. Feature: [improved] language navigation: now when user switch languages he stays on the sampe page
+ 
+ 1. Bug: [fixed] right-to-left css issues in admin panel for RTL languages
+
+
+======================================================================================
+- Version 3.2.5 [21.09.2010]
+======================================================================================
+ 1. Feature: [added] possibility for admin to change site status: online / offline
+ 2. Feature: [added] possibility to define preferred language for each admin account
+ 3. Feature: [added] added text direction, depended on language properties for emails
+ 4. Feature: [added] Site Info tab in General -> Settings in Admin Panel with important information
+ 5. Feature: [added] possibility to change page order with arrows: Up/Down
+ 6. Feature: [added] possibility to track Google and Alexa ranks via Admin Panel -> Settings -> Site Info
+ 7. Feature: [added] possibility to block users by email
+ 8. Feature: [added] smart caching for CMS pages with possibility for Admin change cache settings via General -> Settings
+ 9. Feature: [added] possibility to decide whether to copy or not new page to other languages
+10. Feature: [added] possibility to approve/deny comments via Admin Panel -> Modules -> Comments Management
+
+1. Feature: [improved] protection against unauthorized access to account
+2. Feature: [improved] minor changes in Admin Panel style
+3. Feature: [improved] displaying dates and time in Admin Panel
+4. Feature: [improved] minor changes in Gallery Module functionality
+
+1. Bug: [fixed] in editing vocabulary keys 
+2. Bug: [fixed] in creating RSS for non-english languages: wrong encoding of characters 
+3. Bug: [fixed] re-creating wrong user password for MD5 encryption
+4. Bug: [fixed] displaying wrong order on Add/Edit article page with disabled comments
+5. Bug: [fixed] with changing page order Up/Down on Pages Management -> Edit Pages 
+
+
+======================================================================================
+- Version 3.1.0 [22.04.2010]
+======================================================================================
+ 1. Feature: [added] new default CSS template
+ 2. Feature: [added] custom meta tags for each page
+ 3. Feature: [added] collapsable menu in Admin Panel
+ 4. Feature: [added] new module: Gallery
+ 5. Feature: [added] new module: Contact Us
+ 6. Feature: [added] new page type: "Link"
+ 7. Feature: [added] trash page and possibility to restore trashed page
+ 8. Feature: [added] possibility to save/publish page
+ 9. Feature: [added] new module: Comments for pages
+10. Feature: [added] new module: Users
+11. Feature: [added] new types for RSS: RSS1, RSS2 or Atom
+12. Feature: [added] search possibility
+
+1. Feature: [improved] settings page in admin panel: divided into 3 tabs
+2. Feature: [improved] if 1 language only - flag not shown
+
+1. Bug: [fixed] on installation and restoring backup
+2. Bug: [fixed] syntax error in languages_add.php and other files
+
+
+======================================================================================
+- Version 3.0.2 [08.12.2009]
+======================================================================================
+1. Feature: [added] new CSS template: x-green
+2. Feature: [added] autocomplete="off" for textboxes on login and installation pages
+3. Feature: [added] special home page in Admin panel with some userful information like: current date, last login etc.
+4. Feature: [added] possibility to define <TITLE>, <DESCRIPTION> and <KEYWORDS> tags for site via Admin Panel
+5. Feature: [added] possibility to create RSS chanel for news (via news settings)
+5. Feature: [added] possibility to manage admins (create/edit/delete)
+
+1. Feature: [improved] function ereg() replaced with preg_match()
+2. Feature: [improved] email validation function
+3. Feature: [improved] CSS style for Admin Panel
+4. Feature: [improved] validation functions for MicroGrid class
+5. Feature: [improved] increased max length for menu links from 18 to 25 characters
+
+1. Bug: [fixed] on deleting and changing order for languages
+2. Bug: [fixed] in function get_base_url(). Special Thanks to Vincenzo Di Pietri!
+3. Bug: [fixed] in drawing language flag images
+4. Bug: [fixed] minor changes in CSS styles for admin area
+5. Bug: [fixed] wrong collation for languages - changed on UTF-8
+6. Bug: [fixed] in language text direction implementation for front-end
+7. Bug: [fixed] in ModulesSettings class
+8. Bug: [fixed] in setting up menu ID, while creating new page
+9. Bug: [fixed] wrong drawing news header with single quotation mark
+
+
+======================================================================================
+- Version 3.0.1 [03.09.2009]
+======================================================================================
+1. Feature: [added] new CSS template: x-gray
+2. Feature: [added] modules system, that allows to create additional modules
+3. Feature: [added] MicroGrid class, that allows easy development
+4. Feature: [added] new module - News & Events with management via Admin Panel
+5. Feature: [added] multi-language feature
+
+1. Feature: [improved] minor changes in functions.inc.php file
+2. Feature: [improved] minor changes in css templates
+3. Feature: [improved] all images and css files placed in styles/ folder
+4. Feature: [improved] css style for admin panel allocated in a separate style
+
+1. Bug: [fixed] on displaying Rewrite Vocabulary button, when database is empty.
+2. Bug: [fixed] on rtl direction header background image disappears
+3. Bug: [fixed] with access permissions while uploading images in WYSIWYG editor
+4. Bug: [fixed] on updating menu order while deleting existing menu
+5. Bug: [fixed] in re-placement menu from top to left position
+6. Bug: [fixed] wrong calculating of max.uploading file size
+7. Bug: [fixed] with single and double quotes for SEO links
+8. Bug: [fixed] in Backup.class - saving all tables from current database
+9. Bug: [fixed] in vocabulary on key updating
+10.Bug: [fixed] in function generating SEO links
+11.Bug: [fixed] on redirection after login
+12.Bug: [fixed] WYSIWYG works now in Safari and Chrome browsers
+
+
+======================================================================================
+- Version 2.0.3 [24.05.2009]
+======================================================================================
+1. Feature: [added] possibility delete images from Image gallery in WYSIWYG.
+2. Feature: [added] new CSS templates (blue).
+3. Feature: [added] added up/down feature for easy moving menu categories in Edit Menus.
+4. Feature: [added] possibility to switch site template to Left-To-Right/Right-to-Left from menu Settings in Admin Panel.
+5. Feature: [added] backup & Restore module in Admin Panel.
+6. Feature: [added] multilingual text processing (UTF-8). Possibility to create CMS in different languages. 
+7. Feature: [added] table page structure re-done into DIV's structure.
+8. Feature: [added] added possibility to add link on pages in left or top menu.
+9. Feature: [added] SEO optimized links for static pages, like: static_pages/34/how-to-write-in-php.html
+
+1. Feature: [improved] all SQL statements for installation are collected in separete SQL dump file.
+2. Feature: [improved] error messaging on wrong login.
+
+1. Bug: [fixed] password field saved wrong data while installation process.
+2. Bug: [fixed] wrong message on uploading image in WYSIWYG if no file selected.
+3. Bug: [fixed] wrong CSS Template parameter passed in draw_title_bar().  
+4. Bug: [fixed] in Site Preview feature for logged in users.
+5. Bug: [fixed] on chanaging password in Adinin Panel.
+6. Bug: [fixed] on logout from login page.
+
+
+======================================================================================
+- Version 2.0.2 [26.03.2009]
+======================================================================================
+1. Feature: [added] checks for using PHP5 or higher on installation.
+2. Feature: [added] checks if include/ folder is writable.
+3. Feature: [added] length of menu links was limited to 18 characters.
+4. Feature: [added] possibility to define prefix for database tables on installation.
+5. Feature: [added] possibility to use encrypted or non-encrypted passwords (defined in settings.php, default - false).
+
+1. Bug: [fixed] with using .haccess file on some hostings. 
+
+
+======================================================================================
+- Version 2.0.1 [16.03.2009]
+======================================================================================
+1. Feature: [added] uploading images via WYSIWYG.
+2. Feature: [added] image gallery for uploaded pictures.
+3. Feature: [added] customizing header/footer.
+4. Feature: [added] design templates (embedded).

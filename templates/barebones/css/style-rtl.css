@@ -1,0 +1,21 @@
+#column-left-wrapper { margin:auto 7px auto 0px; color:#4b4b4b; width:0px; }
+
+#column-right-wrapper { margin:auto 0px auto 7px; color:#4b4b4b; width:0px; }
+
+/* --- LEFT RIGHT COLUMN ---------------------- */
+#column-left-wrapper H3.side_box_heading  { background-position:right top; background-image:url(../images/heading-bg-rtl.gif); background-repeat:no-repeat; background-color:#e9e9e9; text-align:right; }
+#column-right-wrapper H3.side_box_heading { background-position:right top; background-image:url(../images/heading-bg-rtl.gif); background-repeat:no-repeat; background-color:#e9e9e9; text-align:right; }
+
+/* --- TOP NAVIGATION ------------------------- */
+#navPagesTop { float:right; }
+UL.nav_top LI { padding:0px; float:right; }
+
+#siteLogo { text-align:right; }
+#siteSlogan { text-align:right; }
+
+/* --- BANNERS ------------------------- */
+DIV.slideshow-caption { text-align:right; }
+
+/* --- SEARCH ---------------------- */
+#navWrapper .header_search { float:left; }
+.search_input { float:right; margin-left:2px; }

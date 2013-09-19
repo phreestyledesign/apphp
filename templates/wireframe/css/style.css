@@ -1,0 +1,79 @@
+/**RESET**/
+html			{margin:0;padding:0; font-family: verdana, sans-serif; font-size: 100.1%;}
+body            {background: #C3C10E url(../images/bg.png);}
+body,td,th      {}
+
+/** LINKS **/
+a:link          { text-decoration: underline; color: #336699; }
+a:visited       { text-decoration: underline; color: #336699; }
+a:hover         { text-decoration: none; color: #336699; }
+a:active        { text-decoration: underline; color: #336699; }
+
+/**FLOATS**/
+.float_left     { float:left; }
+.float_right    { float:right; }
+.clear          { clear:both;  }
+
+/**WRAPPER**/
+div#wrapper        { width:1280px; margin:0 auto; padding:0px;}
+
+/** HEADER **/
+header {height: 165px;background: #fff url(../images/header_bg.png) right no-repeat;}
+header h1 a {background: url(../images/logo.png) no-repeat; display: block;height: 140px;width:410px;text-indent: -999em;text-decoration:none;margin:0;}
+
+/* --- SEARCH ---------------------- */
+#navcontainer .header_search { margin:1px 12px 0px 12px; float:right; }
+#navcontainer .header_search input{ border:0px; background:none transparent scroll repeat 0% 0%; margin:0px; color:#696969;}
+#navcontainer .header_search input:focus { background:none transparent scroll repeat 0% 0%; }
+.search_input { border:1px dotted #cccccc; padding-right:3px; padding-left:3px; background-color:#f1f2f3; float:left; padding-bottom:0px; margin-right:2px; padding-top:0px; height:20px;}
+.search_button{ border:0px; cursor:pointer;}
+
+/** COLUMNS **/
+
+
+main        { background: #fff;}
+article  { width:74%; padding:10px 5px; margin-left:0px;}
+#sidebar    { float:right; width:25%; padding:10px 5px 10px 0;}
+#sidebar h3 { background:#cccccc; margin-bottom:10px; padding:6px 0px; font-weight:bold; font-size:120%;text-align:center; border:1px solid #aaaaaa; }
+#sidebar ul { margin-left:0px;list-style-type:none; }
+
+/** FOOTER **/
+footer         {width:100%;margin-top: 10px;padding-top:15px;padding-bottom:15px;color:#444444;text-align:center;background:#fff; border:1px solid #cccccc;}
+
+
+/** MESSAGE BOXES  **/
+.message_sign           { width:26px; text-align:center; padding-left:auto; padding-right:auto; }
+td.message_text         { padding-left:0px; padding-right:0px;}
+td.message_text_single  { padding-left:10px; padding-right:10px;}
+.success_message_box    { font-size:12px; width:97%; height:40px; margin-bottom:6px; margin-top:6px; padding:2px; color:#000000; background-color:#f1fff1; border:1px solid #3ac13a; }
+.important_message_box  { font-size:12px; width:97%; height:40px; margin-bottom:6px; margin-top:6px; padding:2px; color:#000000; background-color:#fff1f1; border:1px solid #c13a3a; }
+.message_box            { font-size:12px; width:97%; height:40px; margin-bottom:6px; margin-top:6px; padding:2px; color:#000000; background-color:#fffff1; border:1px solid #c1c13a; }
+
+/* --- BANNERS ------------------------- */
+.banners-box-slideshow     { margin:0px 1px 10px 1px; border:1px solid #d9d9d9; height:140px; background-color:#fcfcfc; }
+.banners-box-slideshow img { border:0px; }
+.banners-box-random        { margin-bottom:10px; }
+.banners-box-random img    { border:0px; }
+div.slideshow-caption 	   { position:absolute; margin:-49px 2px 0px 2px; width:611px; height:28px; padding:5px 10px; background:#444444; color:white; font-family:sans-serif; border-radius:10px; display:none; }
+
+/* --- FEATURED CONTENT ---------------------- */
+#featured_content 		{ margin:0; padding:1px; overflow:hidden; height:205px;}
+#featured_content img 	{ float:left; margin-right:15px; height:50px; margin-bottom:0px;}
+#featured_content h2 	{ padding-top:5px; padding-bottom:0px; height:50px; margin-bottom:0px; }
+#featured_content p 	{ clear:both; }
+#featured_content a	 	{ color:#444444; }
+#featured_1, #featured_2, #featured_3 { float:left; width:167px; padding:10px 5px; height:180px; background:#f1f1f1; }
+#featured_1 			{ border-bottom:5px solid #dd3700; cursor:pointer; }
+#featured_1:hover 		{ background-color:#dd3700;}
+#featured_1:hover a 	{ color:#FFF; }
+#featured_2 			{ border-bottom:5px solid #ff6f00; cursor:pointer; }
+#featured_2:hover 		{ background-color:#ff6f00;}
+#featured_2:hover a 	{ color:#FFF; }
+#featured_3 			{ border-bottom:5px solid #ffa600; cursor:pointer; }
+#featured_3:hover 		{ background-color:#ffa600;}
+#featured_3:hover a 	{ color:#FFF; }
+
+/** font styles **/
+p.larger {
+	font-size: 110%;
+}

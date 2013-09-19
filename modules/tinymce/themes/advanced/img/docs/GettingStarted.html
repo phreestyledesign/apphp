@@ -1,0 +1,626 @@
+<html>
+<head>
+    <title>Getting Started with ApPHP MicroCMS</title>
+    <style>
+        BODY { padding:10px 20px 10px 20px; font-family: "Lucida Sans Unicode"; font-size: 14px; }
+        IMG  { border:1px solid #cccccc; }
+    </style>
+</head>
+<body>    
+
+<!-- last changing 10.12.2012 -->
+<a name="top"></a>
+<div class="box">
+<h2>Getting Started with ApPHP MicroCMS (for version 3.0.0 or above)</h2>
+<div class="holder">
+<div class="frame-box">
+
+    <div class="blocks-holder blocks-subholder">
+    <div class="block-long">
+    <div class="text-box">
+
+		<ul style="padding-left:1px;list-style:none;font-size:14px;">
+			<li>
+			<span>1.</span> <a href="GettingStarted.html#General_and_site_settings"><span>General and Site Settings.</span></a> 
+			<ul style="list-style:none;">
+				<li><span>1.1</span> <a href="GettingStarted.html#Setting_up_site_parameters"><span>Setting up site parameters.</span></a></li>
+				<li><span>1.2</span> <a href="GettingStarted.html#Banning"><span>Banning Emails/IP Addresses.</span></a></li>
+				<li><span>1.3</span> <a href="GettingStarted.html#Countries_management"><span>Countries Management.</span></a></li>
+				<li><span>1.4</span> <a href="GettingStarted.html#Site_Preview"><span>Site Preview.</span></a></li>
+			</ul>
+
+			<span>2</span> <a href="GettingStarted.html#Accounts_management"><span>Accounts Management.</span></a>
+			<ul style="list-style:none;">
+				<li><span>2.1</span> <a href="GettingStarted.html#My_account"><span>My Account.</span></a></li>
+				<li><span>2.2</span> <a href="GettingStarted.html#Statistics"><span>Statistics.</span></a></li>
+				<li><span>2.3</span> <a href="GettingStarted.html#Roles_Privileges"><span>Roles & Privileges.</span></a></li>
+				<li><span>2.4</span> <a href="GettingStarted.html#Admins_Management"><span>Admins Management.</span></a></li>
+				<li><span>2.5</span> <a href="GettingStarted.html#Users_Management"><span>Users Management.</span></a></li>
+			</ul>
+
+			<span>3.</span> <a href="GettingStarted.html#Menu_Management"><span>Menu Management.</span></a> 
+			<ul style="list-style:none;">
+				<li><span>3.1</span> <a href="GettingStarted.html#Creating_menu_categories"><span>Creating menu categories.</span></a>
+				<li><span>3.2</span> <a href="GettingStarted.html#Editing_menu_categories"><span>Editing menu categories.</span></a>
+			</ul>
+
+			<span>4.</span> <a href="GettingStarted.html#Pages_Management"><span>Pages Management.</span></a> 
+			<ul style="list-style:none;">
+				<li><span>4.1</span> <a href="GettingStarted.html#Editing_homepage"><span>Editing Homepage.</span></a>
+				<li><span>4.2</span> <a href="GettingStarted.html#Creating_new_pages"><span>Creating new pages.</span></a>
+				<li><span>4.3</span> <a href="GettingStarted.html#Editing_pages"><span>Editing pages.</span></a>
+				<li><span>4.4</span> <a href="GettingStarted.html#Editing_system_pages"><span>Editing system pages.</span></a>
+				<li><span>4.5</span> <a href="GettingStarted.html#Remove_Restore_pages"><span>Remove/Restore pages.</span></a>
+			</ul>
+
+			<span>5.</span> <a href="GettingStarted.html#Languages_Settings"><span>Languages Settings.</span></a> 
+			<ul style="list-style:none;">
+				<li><span>5.1</span> <a href="GettingStarted.html#Inserting_Editing_language"><span>Inserting/Editing language.</span></a>
+				<li><span>5.2</span> <a href="GettingStarted.html#Editing_language_vocabulary"><span>Editing language vocabulary.</span></a>
+			</ul>
+
+			<span>6.</span> <a href="GettingStarted.html#Mass_Mail_Templates"><span>Mass Mail & Email Templates.</span></a> 
+			<ul style="list-style:none;">
+				<li><span>6.1</span> <a href="GettingStarted.html#Email_Templates"><span>Email Templates.</span></a>
+				<li><span>6.2</span> <a href="GettingStarted.html#Mass_Mail"><span>Mass Mail.</span></a>
+			</ul>
+
+			<span>7.</span> <a href="GettingStarted.html#Modules"><span>Modules.</span></a> 
+			<ul style="list-style:none;">
+				<li><span>7.1</span> <a href="GettingStarted.html#Modules_Management"><span>Modules Management.</span></a></li>
+				<li><span>7.2</span> <a href="GettingStarted.html#Users_Module"><span>Users Module.</span></a></li>
+				<li><span>7.3</span> <a href="GettingStarted.html#ContactUs_Module"><span>Contact Us Module.</span></a></li>
+				<li><span>7.4</span> <a href="GettingStarted.html#Comments_Module"><span>Comments Module.</span></a></li>
+				<li><span>7.5</span> <a href="GettingStarted.html#Gallery_Module"><span>Gallery Module.</span></a></li>
+				<li><span>7.6</span> <a href="GettingStarted.html#Banners_Module"><span>Banners Module.</span></a></li>
+				<li><span>7.7</span> <a href="GettingStarted.html#News_Module"><span>News Module.</span></a>
+				<li><span>7.8</span> <a href="GettingStarted.html#FAQ_Module"><span>FAQ Module.</span></a>
+				<li><span>7.9</span> <a href="GettingStarted.html#Backup_and_Restore_Module"><span>Backup & Restore Module.</span></a>
+			</ul>    
+			</li>
+		</ul>
+		<br />
+
+        <a name="General_and_site_settings"></a>
+        <h3 class="sub-title"><b>1. General and Site Settings.</b></h3><br>
+        This section describes how to manage the general settings of your site.        
+		<p></p>
+
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="Setting_up_site_parameters"></a>
+			<h4><b>1.1 Setting up site parameters.</b></h4>        
+			<a href="images/getting_started/settings.png" rel="lytebox[section_1_1]" title="Settings"><img class="opacity_img" src="images/getting_started/settings_thumb.png" width="120" alt="" title="Settings" border="0" /></a>
+			<hr>
+				Select Settings from General Menu. On this you can easy change/manage the important parameters of your site.
+				You will see there 6 Tabs: General Settings, Visual Settings, Templates & Styles, Server Info, Site Info and Cron Jobs
+				<br><br>
+				
+				On General Settings Tab you can change:
+				<ul>
+					<li>Site Offline</li>
+					<li>Offline Message</li>
+					<li>SEO URLs</li>
+					<li>WYSIWYG Editor</li>
+					<li>RSS Feed Type </li>
+					<li>Caching / Caching lifetime - caching for pages</li>
+				</ul><br />
+				
+				On Visual Settings Tab you can change: (change value in dropdown box to make changes for appropriate language).
+				You may also apply changes in META tags to all pages. 
+				<ul>
+					<li>Header Text</li>
+					<li>Slogan</li>
+					<li>Footer Text</li>
+					<li>Tag &lt;TITLE&gt;</li>
+					<li>Meta Tag &lt;KEYWORDS&gt;</li>
+					<li>Meta &lt;DESCRIPTION&gt;</li>
+				</ul><br />
+	
+				Date & Time Settings Tab you can change:
+				<ul>
+					<li>Date Format</li>
+					<li>Time Zone</li>
+				</ul><br />
+	
+				On Email Settings Tab you can change:
+				<ul>
+					<li>PHP Mailer</li>
+					<li>E-mail address - address that used for system messages in "FROM" field</li>
+					<li>SMTP Settings</li>
+				</ul><br />				
+	
+				On Templates & Styles Tab you can change:
+				<ul>
+					<li>Template </li>
+				</ul><br />
+	
+				On Server Info Tab you can view the important info about your server:
+				<ul>
+					<li>PHP and MySQL versions</li>
+					<li>Server parameters</li>
+					<li>etc</li>
+				</ul><br />
+	
+				On Site Info Tab you can view the ranks of your site (click on "Update" button to refresh them):
+				<ul>
+					<li>Google and Alexa</li>
+				</ul><br />
+	
+				On Cron Jobs Tab you can define a type of cron jobs:
+				<ul>
+					<li>Batch</li>
+					<li>Non-batch</li>
+				</ul>
+				<p><br /></p>        
+	
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="Banning"></a>
+			<h4><b>1.2 Banning Emails/IP Addresses.</b></h4>
+			<a href="images/getting_started/banning.png" rel="lytebox[section_1_2]" title="Banning"><img class="opacity_img" src="images/getting_started/banning_thumb.png" width="120" alt="" title="Banning" border="0" /></a>
+			<hr>
+				Select Ban List option from the General Menu. On this page you can easy add/change or remove banned
+				emails or IP addresses.
+				<p><br /></p>		
+	
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="Countries_management"></a>
+			<h4><b>1.3 Countries Management.</b></h4>
+			<a href="images/getting_started/countries_management.png" rel="lytebox[section_1_2]" title="Countries Management"><img class="opacity_img" src="images/getting_started/countries_management_thumb.png" width="120" alt="" title="Countries Management" border="0" /></a>
+			<hr>
+				Select Countries from General Menu. On this page you can manage a list of countries with a standard MicroGrid page.
+				You can add, edit or delete existing country. Also you may change a priority order, activate country or define
+				whether it's a default country or not.
+				<p><br /></p>		
+	
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="Site_Preview"></a>
+			<h4><b>1.4 Site Preview</b></h4>
+			<hr>
+				Site Preview option allows you to check a Front-End of your site without logging out.
+				<p><br /></p>
+		<p><br /></p>
+
+        <a name="Accounts_management"></a>
+        <h3 class="sub-title"><b>2. Accounts Management.</b></h3><br>
+        This section describes how to manage site accounts.        
+        <p></p>
+
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+            <a name="My_account"></a>
+            <h4><b>2.1 My Account.</b></h4>
+			<a href="images/getting_started/my_account.png" rel="lytebox[section_2_1]" title="My Account"><img class="opacity_img" src="images/getting_started/my_account_thumb.png" width="120" alt="" title="My Account" border="0" /></a>
+			<hr>
+                Log into Admin Panel, using administrator username and password. Then select My Account
+                from Accounts Menu or from the top links of the page. You will see a page, where you can change your
+				email, password and preferred language. To change data simply enter new values and then click 
+				on "Change" button.
+				<p><br /></p>		
+        
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="Statistics"></a>
+			<h4><b>2.2 Statistics.</b></h4>
+			<hr>
+				Select Statistics from General Menu. On this page you can view a general statistics of your site:
+				<ul>
+					<li>Users (Map Overlay)</li>
+					<li>Users (Registrations)</li>
+					<li>Users (Logins)</li>
+					<li>etc.</li>
+				</ul>			
+				<p><br /></p>
+
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+            <a name="Roles_Privileges"></a>
+            <h4><b>2.3 Roles & Privileges.</b></h4>
+			<hr>
+                Select Roles & Privileges from Accounts menu. You will see a page, where existing site roles are defined:
+				Owner, Main Admin and Simple Admin. You may specify the privileges for each role by clicking on [ Privileges ]
+				link. Privileges for Site Owner cannot be changed by anyone. Generally, the Main Admin is the role that has all
+				rights, like a Site Owner (but may be deleted by the Owner) and a Simple Admin type is the type which has
+				reduced rights. 
+				<p><br /></p>		
+
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+            <a name="Admins_Management"></a>
+            <h4><b>2.4 Admins Management.</b></h4>
+			<hr>
+                Select Admins from Accounts -> Admins Management menu. On this page you can manage all site administrator
+				accounts. You may add, edit or delete existing accounts. When you create a new admin account you have to
+				define an account type(role): Simple Admin or Main Admin. The privilages for selected role will be applied
+				automatically for created account.
+				<p><br /></p>		
+
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+            <a name="Users_Management"></a>
+            <h4><b>2.5 Users Management.</b></h4>
+			<hr>
+				<u>User Groups:</u><br>
+                Select User Groups from Accounts Menu. On this page you can add, edit or delete existing groups of users.
+				You have to enter Group Name and description (optional). Users can be assigned to zero, one or more groups.
+				<br /><br />
+				
+				<u>Users:</u><br />
+                Select Users from Accounts Menu. You will see the Users Management page. On this page you can add,
+				edit or delete existing accounts of users. 
+				<p><br /></p>		
+		<p><br /></p>
+		
+        
+        <a name="Menu_Management"></a>
+        <h3 class="sub-title"><b>3. Menu Management.</b></h3><br>
+        This section describes how to manage menu categories.<br>        
+		<a href="images/getting_started/menu_management.png" rel="lytebox[section_3]" title="Menu Management"><img class="opacity_img" src="images/getting_started/menu_management_thumb.png" width="120" alt="" title="Menu Management" border="0" /></a>
+		<p></p>
+        
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="Creating_menu_categories"></a>
+			<h4><b>3.1 Creating menu categories.</b></h4>
+			<hr>
+				Click on Add New Menu from Menus Management. In the textbox enter a proper name for menu category and
+				select a placement (left, top, right or bottom - depending on whether your template supports it) from dropdown list,
+				also choose a language. You may define access level for the menu: All(public) or only Registered users. click on
+				"Create" button to finish adding new menu category process. Menu categories will appear sorted by order from smallest
+				to highest priority (last added category automatically gets lowest priority).             
+				<p><br /></p>
+			
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="Editing_menu_categories"></a>
+			<h4><b>3.2 Editing menu categories.</b></h4>
+			<hr>
+				To edit existing menu category - select Edit Menus from Menus Management menu and then click on [Edit] link
+				of appropriate category in the list. Perform all changes you need and then click on "Save Changes"
+				button. You may also change a display order of each menu category.
+				<br /><br />
+				If you want to delete existing menu category - go to Edit Menus page, then select appropriate menu
+				category from the list and click on "Delete" link at the right side.
+				<p><br /></p>
+        <p><br /></p>
+		
+        
+        <a name="Pages_Management"></a>
+        <h3 class="sub-title"><b>4. Pages Management.</b></h3><br>
+        This section describes how to manage pages.
+		<p></p>
+        
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="Editing_homepage"></a>
+			<h4><b>4.1 Editing Homepage.</b></h4>
+			<hr>
+				To edit Homepage - select Edit Home Page from Pages Management menu. Perform all
+				changes you need and then click on "Save Changes" button. You may also define meta tags
+				for your homepage: title, description and keywords and some other settings.
+				<br /><br />
+				If you need to insert/upload images - click on Insert Image icon in the toolbar of WYSIWYG editor,
+				then upload/select your image and click on "Submit" button to insert it into the text.
+				<p><br /></p>
+			
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="Creating_new_pages"></a>
+			<h4><b>4.2 Creating new pages.</b></h4>
+			<hr>
+				Click on Add New Page from Pages Management menu. In the Page Header textbox enter a proper name
+				for this page. Choose appropriate value from dropdown list to connect this page to specific menu
+				category and enter a text in Page Text textarea. You may also define whether a page will be an
+				article or just a link, allow/block comments, define access level, meta tags, show or not this
+				page in the search results, publish or just save changes without publishing etc. Click on "Create"
+				button to finish the process.
+				<br /><br />
+				If you need to insert/upload images - click on Insert Image icon in the toolbar of WYSIWYG editor,
+				then upload/select your image and click on "Submit" button to insert it into the text.
+				<p><br /></p>
+	
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="Editing_pages"></a>
+			<h4><b>4.3 Editing pages.</b></h4>
+			<hr>
+				To edit existing page - click on Edit Pages from Pages Management menu, then select an 
+				appropriate page from the list. Perform all changes you need and then click on
+				"Save Changes" button. 
+				<br /><br />
+				If you need to insert/upload images - click on Insert Image icon in the toolbar of WYSIWYG editor,
+				then upload/select your image and click on "Submit" button to insert it into the text.
+				<br /><br />
+				If you need to insert a module's functionality to your page, simple add in appropriate place in
+				the text a module key, for example: {module:gallery}. A list of the possible module keys is
+				placed at the right side under the "Finish Publishing" calendar. 
+				<p><br /></p>
+
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="Editing_system_pages"></a>
+			<h4><b>4.4 Editing system pages.</b></h4>
+			<hr>
+				To edit system pages - click on Edit System Pages from Pages Management, then select an 
+				appropriate page from the list. Perform all changes you need and then click on
+				"Save Changes" button. 
+				<p><br /></p>
+
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="Remove_Restore_pages"></a>
+			<h4><b>4.5 Remove/Restore pages.</b></h4>
+			<hr>
+				To remove existing page - click <b>Edit Pages</b> from the <b>Pages Management</b> menu, then select an 
+				appropriate page from the list and click <b>Remove</b> link from the right side. This page will be
+				placed in the Trash.
+				<br /><br />
+				To restore removed page click <b>Trash</b> from the <b>Pages Management</b>, find an appropriate page and click 
+				<b>Restore</b> link. The page will be restored. If you want to permanently delete this page, click <b>Delete</b>
+				link.
+				<p><br /></p>
+		<p><br /></p>
+
+
+        <a name="Languages_Settings"></a>
+        <h3 class="sub-title"><b>5. Languages Settings.</b></h3><br />
+        This section describes how to manage languages and define language settings.<br>
+		<a href="images/getting_started/vocabulary.png" rel="lytebox[section_5_1]" title="Vocabulary"><img class="opacity_img" src="images/getting_started/vocabulary_thumb.png" width="120" alt="" title="Vocabulary" border="0" /></a>
+		<p></p>		
+
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="Inserting_Editing_language"></a>
+			<h4><b>5.1 Inserting/Editing Language.</b></h4>
+			<hr>
+				Click <b>Languages</b> from the <b>Languages Settings</b> menu. On this page you will see a list of existing
+				languages. You can add new language or edit existing, change display order etc. When you add or edit
+				existing language you need to insert a name of the language, abbreviation, text direction, icon image and
+				some other data. When all needed data is entered - press <b>Create/Update</b> button to save it. You have to
+				define one language to be a default language of the site.
+				<br /><br />
+				When you add new language the system creates for it a copy of vocabulary (a list of predefined constants,
+				used by the system) from the default language and you will need to translate them into the new language.
+				<p><br /></p>
+	
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="Editing_language_vocabulary"></a>
+			<h4><b>5.2 Editing language vocabulary.</b></h4>
+			<hr>
+				Click <b>Vocabulary</b> from the <b>Languages Settings</b> menu. On this page you can edit the vocabulary
+				constants of existing languages. To change the text of constant, select an appropriate language from dropdown list,
+				then click <b>[Edit]</b> link and enter new text in a textarea. You may use Google automatic translation to help
+				yourself in this work. To do this simply past in textarea default language text and then click on
+				Translate via Google button (works for Google paid account only).
+				<br /><br />
+				You may also update your vocabulary by uploading a vocabulary file (if you created such file before or have it
+				from the previous instalaltion). To do this simply click <b>[Upload from File]</b> link, then select vocabulary
+				file, language to update and press on upload and Process button. 
+				<p><br /></p>
+		<p><br /></p>
+		
+
+        <a name="Mass_Mail_Templates"></a>
+        <h3 class="sub-title"><b>6. Mass Mail & Email Templates.</b></h3><br>
+        This section describes how to work with Mass Mail & Email Templates.        
+		<p></p>
+
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="Email_Templates"></a>
+			<h4><b>6.1 Email Templates.</b></h4>
+			<hr>
+				To edit Email Templates go to Mass Mail & Templates -> Email Templates. On this page you can 
+				see a list of existing email templates. Email Templates are managed with a standard
+				MicroGrid page. You can add, delete or edit existing records. There are some templates that signed as
+				"system" templates, that cannot be deleted, because they are used by the system.
+				<p><br /></p>
+			
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="Mass_Mail"></a>
+			<h4><b>6.2 Mass Mail.</b></h4>
+				With the Mass Mail feature, it's possible to create and send powerful mass mail messages to registered
+				users and/or admins. To do this go to Mass Mail & Templates -> Mass Mail. On this page you can select 
+				a template, define targeting group of receivers (or send a test email) and prepare the text of email
+				message. There are some pre-defined constants that may be used in the text of email and will be replaced
+				with appropriate values before sending the email. For example: {YEAR} will be replaced with the current
+				year in YYYY format, {WEB SITE} with web site URL etc.
+				<p><br /></p>
+		<p><br /></p>
+	
+	
+        <a name="Modules"></a>
+        <h3 class="sub-title"><b>7. Modules.</b></h3><br>
+        This section describes how to work with embedded modules.        
+		<p></p>
+
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="Modules_Management"></a>
+			<h4><b>7.1 Modules Management.</b></h4>
+			<a href="images/getting_started/modules_management.png" rel="lytebox[section_7_1]" title="Modules Management"><img class="opacity_img" src="images/getting_started/modules_management_thumb.png" width="120" alt="" title="Modules Management" border="0" /></a>
+			<hr>
+				Select Modules Management from the Modules Menu. On this page you can easy install/uninstall existing 
+				modules, for example: News, Backup etc. To do this click on [Edit] link, perform all needed changes and
+				then click on "Update" button to save them.
+				<p><br /></p>        
+	
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="Users_Module"></a>
+			<h4><b>7.2 Users Module.</b></h4>
+			<hr>
+				This section describes how to work with the Users Module.<br /><br />
+	
+				<b>Users Module settings.</b><br />
+				This page allows you to specify Users settings, like:<br />
+				- whether to allow adding new users by Admin<br />
+				- whether confirmation (which type) is required for registration<br />
+				- whether to allow existing users to login<br />
+				- whether to allow image verification (captcha) on user registration page<br />
+				- whether to alert admin on new user registration<br />
+				- whether to allow changing user password by Admin<br />
+				- whether to allow Remember Me feature<br />
+				- whether to allow users to register<br />
+				- whether to allow users to restore their passwords<br />
+				<br />
+				
+				<b>Users Management page.</b><br />
+				Look <a href="#Users_Management">here</a>.<br />				
+				<p><br /></p>
+	
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="ContactUs_Module"></a>
+			<h4><b>7.3 Contact Us Module.</b></h4>
+			<hr>
+				This section describes how to work with the Contact Us Module.
+
+				<b>Contact Us Module settings.</b><br />
+				This page allows you to define Contact Us settings, like:<br />
+				- The email address, that will be used to get sent information<br />
+				- The keyword that will be replaced with Contact Us form (copy and paste it into the page)<br />
+				- Specifies whether to allow time delay between sending emails.<br />
+				- Defines a length of delay between emails in seconds.<br /> 
+				- Specifies whether to allow image verification<br />
+				<p><br /></p>
+
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="Comments_Module"></a>
+			<h4><b>7.4 Comments Module.</b></h4>
+			<hr>
+				This section describes how to work with the Comments Module.<br /><br />
+			
+				<b>Comments module settings.</b><br />
+				This page allows you to define Comments settings, like:<br />
+				- Specifies whether to allow comments to articles<br />
+				- Type of users, who can post comments<br />
+				- The maximal length of a comment<br />
+				- Specifies whether to allow image verification (captcha)<br />
+				- How much comments will be shown on one page<br />
+				- Specifies whether to allow pre-moderation for comments<br />
+				- The maximum pending time for deleting of comment in minutes.
+				<br /><br />
+				<b>Comments Management page.</b><br />
+				On this page admin can manage comments: view, approve, deny or delete them.
+				<p><br /></p>
+	
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="Gallery_Module"></a>
+			<h4><b>7.5 Gallery Module.</b></h4>
+			<hr>
+				This section describes how to work with the Gallery Module.<br /><br />
+
+				<b>Gallery Settings.</b><br />
+				This page allows you to define Gallery settings, like:<br />
+				- Allowed types of Image Gallery<br />
+				- Allowed types of Video Gallery<br />
+				- The keyword that will be replaced with gallery (copy and paste it into the page)<br />
+				- Album icon width<br />
+				- Album icon height<br />
+				- Number of album icons per line<br />
+				- The keyword that will be replaced with a certain album images (copy and paste it into the page)<br />
+				- Defines a wrapper type for gallery<br />
+				- Specifies whether to show count of images/video under album name<br />
+				<br />
+	
+				<b>Gallery Management.</b><br />
+				The Gallery module allows you to create and manage gallery albums on your site.
+				To do this go to Modules -> Gallery -> Gallery Management. On this page you will
+				see a list of existing albums. Albums are managed with a standard MicroGrid page.
+				You can add, delete or edit albums info, define a type of album: images or video etc.
+				To upload/delete images from the certain album - click on "Upload" link. You will be
+				redirected to the Album Items pages, where you could add(upload) and manage album items.
+				<br />
+				<p><br /></p>
+
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="Banners_Module"></a>
+			<h4><b>7.6 Banners Module.</b></h4>
+			<hr>
+				This section describes how to work with the Gallery Module.<br /><br />
+
+				<b>Banners Settings.</b><br />
+				This page allows you to define Banners settings, like:<br />
+				- Whether banners module is active or not<br />
+				- Type of banner rotation<br />
+				- Banners rotation delay in seconds<br />
+				<br />
+	
+				<b>Banners Management.</b><br />
+				The Banners module allows you to create(upload) and manage banners on your site.
+				To do this go to Modules -> Banners -> Banners Management. On this page you will
+				see a list of existing banners, that are managed with a standard MicroGrid page.
+				You can add, edit or delete banners, upload banner images etc. 
+				<br />			
+				<p><br /></p>
+
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="News_Module"></a>
+			<h4><b>7.7 News Module.</b></h4>			
+			<a href="images/getting_started/news_module.png" rel="lytebox[section_7_7]" title="News Module"><img class="opacity_img" src="images/getting_started/news_module_thumb.png" width="120" alt="" title="News Module" border="0" /></a>
+			<hr>
+				This section describes how to work with the News Module.<br /><br />
+		
+				<b>News Settings.</b><br />
+				This page allows you to define News settings, like:<br />
+				- How many news will be shown in news block<br />
+				- Length of news header in block<br />
+				- Using of RSS channel for news<br />
+				- Defines whether to show News side block or not<br />
+				- Defines whether to show Newsletter Subscription block or not
+				<br /><br />
+	
+				<b>Creation and Management.</b><br />
+				The News module allows you to create and manage news on your site.
+				To do this go to Modules -> News -> News Management. On this page you will
+				see a list of previously added news. News are managed with a standard
+				MicroGrid page. You can add, edit or delete news records.
+				<br /><br />
+				There are two type of news that may be created: news or events.
+				If you create event, visitors could register to this event via online form.
+				All registered users may be viewed via Modules -> News -> News Management -> events()				
+				<br /><br />
+				
+				<b>Subscription Management (Newsletter Subscription).</b><br />
+				The News module allows you to create and manage Mailing Lists on your site. You may place
+				a Subscription block on the Front-End of your site and allow visitors to subscribe for
+				news or manually add/remove subscribers via Modules -> News -> Subscription Management page.
+                To send newsletter for subscribers go to Mass Mail -> Templates -> Mass Mail page, then select
+				from Email Address dropdown box "Newsletter Subscribers", prepare the newsletter text and click
+				on "Send" button.
+				<p><br /></p>
+
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="FAQ_Module"></a>
+			<h4><b>7.8 FAQ Module.</b></h4>
+			<hr>
+				<b>FAQ Settings.</b><br />
+				This page allows you to define Banners settings, like:<br />
+				- Whether FAQ module is active or not
+				<br /><br />
+				
+				<b>FAQ Management.</b><br />
+				The FAQ module allows you to create FAQ categories knowladge base. To do this go to
+				Modules -> FAQ -> FAQ Management. On this page you will see a list of existing FAQ categories.
+				You can add, edit or delete categories records. Once FAQ category is created, you may add
+				category questions and answers. To do this simply click on "Question" link of appropriate category
+				and on the new page create/edit the pairs: question/answer.
+				<p><br /></p>
+
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="Backup_and_Restore_Module"></a>
+			<h4><b>7.9 Backup & Restore Module.</b></h4>
+			<a href="images/getting_started/backup_module.png" rel="lytebox[section_7_2]" title="Backup Module"><img class="opacity_img" src="images/getting_started/backup_module_thumb.png" width="120" alt="" title="Backup Module" border="0" /></a>
+			<hr>
+				<b>Creating a backup.</b><br />
+				This script allows you easily create backup of your database. To do this go
+				to Modules -> Backup & Restore -> Backup Installation. On this page you can see a list
+				of existing backups. If you want to add new backup click on "Backup" button.
+				After the backup is complete it will appear in the list below.        
+				<br /><br />
+	
+				<b>Restoring from backup.</b><br />
+				To restore database from existing backup go to Modules -> Backup & Restore -> Backup Restore
+				page and look on the list of existing backups. Select a backup you want to restore and click
+				on "Restore" link at the right side. After backup restore is complete, refresh the site or
+				re-login.        
+				<br />            
+				<p><br /></p>
+		<p><br /></p>
+
+
+	</div>
+	</div>
+	</div>
+
+	<div class="frame-box-holder"></div>		
+		
+</div>
+</div>
+</div>
+
+</body>
+</html>
